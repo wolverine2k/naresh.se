@@ -1,0 +1,13 @@
+[en]
+  title = "Naresh Mehta"
+  languageName = "English"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/en"
+
+#[ko]
+#  title = "Naresh Mehta"
+#  languageName = "한국어"
+#  weight = 2
+#  languagedir = "ltr"
+#  contentdir = "content/ko"

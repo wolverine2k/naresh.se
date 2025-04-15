@@ -1,0 +1,215 @@
+logoText = "Naresh Mehta"
+logoType = "short" # long, short
+description = "My personal blog where I write about various topics including politics, technology, anthropology, philosophy, religion, business, and everything under the sun!"
+custom_css = []
+custom_js = []
+useFaviconGenerator = true # https://www.favicon-generator.org/
+meta_image = ""
+themecolor = ""
+
+themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
+
+viewportSize = "normal" # widest, wider, wide, normal, narrow
+enableUiAnimation = true
+hideSingleContentsWhenJSDisabled = false
+enablePinnedPosts = true
+minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
+
+# appbar
+enableAppbarSearchIcon = false
+enableAppbarLangIcon = false
+
+# header
+homeHeaderType = "text" # text, img, slide, typewriter
+hideHomeHeaderWhenMobile = false
+
+# menu
+showMobileMenuTerms = ["tags", "categories", "series"]
+
+# search
+enableSearch = true
+enableSearchHighlight = true
+searchResultPosition = "main" # side, main
+searchContent = true # include content to search index
+searchDistance = 100 # fuse option
+searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
+
+# body
+enableBreadcrumb = true
+enableGoToTop = true
+enableWhoami = true
+summaryShape = "classic" # card, classic, compact
+archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+archivePaginate = 13
+paginateWindow = 1
+talksPaginate = 5
+talksGroupByDate = "2006"
+pubPaginate = 20
+writtenTimeIcon = "📅"
+modifiedTimeIcon = "📝"
+readingTimeIcon = "☕"
+authorIcon = "✍️"
+pagePvIcon = "👀"
+pinIcon = "📌"
+tagIcon = "🏷️"
+publicationIcon = "📚"
+typeIcon = "🎯"
+
+# whoami
+myname = "Naresh Mehta"
+email = "naresh.mehta@gmail.com"
+#whoami = "Sr. Solutions Architect (Automotive) at NVIDIA"
+bioImageUrl = "https://avatars1.githubusercontent.com/u/1121738?v=3&s=460"
+useGravatar = false
+location = "Sweden"
+#organization = "wolverine2k"
+link = "https://www.naresh.se"
+
+# sidebar
+enableBio = true
+enableBioImage = true
+enableSidebar = true
+enableSidebarTags = true
+enableSidebarSeries = true
+enableSidebarCategories = true
+enableHomeSidebarTitles = true
+enableListSidebarTitles = true
+enableToc = true
+hideToc = false
+tocFolding = true
+tocPosition = "inner" # inner, outer
+enableTocSwitch = true
+itemsPerCategory = 5
+sidebarPosition = "right"
+tocLevels = ["h2", "h3", "h4"]
+enableSidebarPostsByOrder = false
+
+# footer
+showPoweredBy = false
+showFeedLinks = true
+showSocialLinks = true
+enableLangChange = false
+enableThemeChange = true
+
+# service
+googleTagManager = "" # GTM-XXXXXX
+baiduAnalytics = ""
+enableBusuanzi = false
+busuanziSiteUV = true
+busuanziSitePV = true
+busuanziPagePV = true
+
+# rss
+updatePeriod = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updateFrequency = ""
+fullContents = false
+
+# comment
+enableComment = true
+disqus_shortname = "wolverine2k"
+commento = true
+
+[telegram]
+  enable = false
+  siteId = ""
+  dataLimit = 5
+
+[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+  owner = "wolverine2k"              # Your GitHub ID
+  repo = "naresh.se_comments"               # The repo to store comments
+  clientId = "Ov23liBeZLWWvKsYTzOh"           # Your client ID
+  clientSecret = "1790cc08a3060a01ad0afaf3bbe8e7c289850a64"       # Your client secret
+
+[utterances]       # https://utteranc.es/
+  owner = "wolverine2k"              # Your GitHub ID
+  repo = "naresh.se_comments"               # The repo to store comments
+
+[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+  owner = "wolverine2k"              # Your GitHub ID
+  repo = "naresh.se_comments"               # The repo to store comments
+  clientId = "Ov23liBeZLWWvKsYTzOh"           # Your client ID
+  clientSecret = "1790cc08a3060a01ad0afaf3bbe8e7c289850a64"       # Your client secret
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[valine]
+  enable = false
+  appId = '你的appId'
+  appKey = '你的appKey'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm' 
+  placeholder = '说点什么吧...'
+  visitor = false
+
+[changyan]
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+[livere]
+  livereUID = ""            # LiveRe UID                  # 来必力
+
+# Isso: https://posativ.org/isso/
+[isso]
+  enable = false
+  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[socialOptions]
+  email = "mailto:naresh.mehta@gmail.com"
+  phone = "+46793376079"
+  facebook = "https://facebook.com/wolverine2k"
+  twitter = "https://x.com/wolverine2k"
+  github = "https://github.com/wolverine2k"
+  stack-overflow = "http://stackoverflow.com/users/5599099"
+  instagram = "http://instagram.com/wolverine2k"
+  youtube = "https://www.youtube.com/user/wolverine2k1"
+  medium = ""
+  tumblr = ""
+  linkedin = "https://se.linkedin.com/in/nareshmehta"
+  pinterest = ""
+  stack-exchange = ""
+  telegram = ""
+  steam = ""
+  weibo = ""
+  douban = ""
+  csdn = ""
+  gitlab = "https://gitlab.com/wolverine2k"
+  #bitbucket = "https://bitbucket.com/wolverine2k"
+  mastodon = ""
+  jianshu = ""
+  zhihu = ""
+  signal = ""
+  whatsapp = ""
+  matrix = ""
+  xmpp = ""
+  dev-to = ""
+  gitea = ""
+  google-scholar = ""
+
+[donationOptions]
+  enable = true
+  alipay = "" 
+  wechat = ""
+  paypal = "http://paypal.me/NareshMehta"
+  patreon = ""
+
+# possible share name: ["facebook", "X""reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
+[[share]]
+  name = "facebook"
+  username = ""
+[[share]]
+  name = "X"
+  username = ""
+
+[[footerLinks]]
+  name = ""
+  link = ""
+[[footerLinks]]
+  name = ""
+  link = ""

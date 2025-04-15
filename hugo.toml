@@ -1,4 +1,76 @@
 baseURL = 'https://naresh.se/'
 languageCode = 'en-us'
-title = 'Naresh Mehta'
-theme = 'hugo-theme-m10c'
+#title = 'Naresh Mehta'
+#theme = 'zzo'
+title = "Ideas analyzed logically to make sense & grow upon..."
+#themesDir = "../.."
+
+[params]
+author = "Naresh Mehta"
+disqusShortname = "wolverine2k"
+avatar = "https://avatars1.githubusercontent.com/u/1121738?v=3&s=460"
+subtitle = "Ideas analyzed logically to make sense & grow upon..."
+description = "My personal blog where I write about various topics including politics, technology, anthropology, philosophy, religion, business, and everything under the sun!"
+
+[pagination]
+  pagerSize = 8
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[params.social]]
+icon = "brand-github"
+name = "My Github"
+url = "https://github.com/wolverine2k"
+
+[[params.social]]
+icon = "brand-twitter"
+name = "My Twitter"
+url = "https://twitter.com/wolverine2k"
+
+[[params.social]]
+icon = "brand-bitbucket"
+name = "My Bitbucket"
+url = "https://bitbucket.com/wolverine2k"
+
+[[params.social]]
+icon = "brand-gitlab"
+name = "My Gitlab"
+url = "https://gitlab.com/wolverine2k"
+
+[[params.social]]
+icon = "brand-linkedin"
+name = "My Linkedin"
+url = "https://se.linkedin.com/in/nareshmehta"
+
+#[[params.social]]
+#icon = "brand-stack-overflow"
+#name = "My stackoverflow"
+#url = "http://stackoverflow.com/users/5599099"
+
+[[params.social]]
+icon = "brand-paypal"
+name = "My Paypal"
+url = "http://paypal.me/NareshMehta"
+
+#[[params.social]]
+#icon = "brand-facebook"
+#name = "My Facebook"
+#url = "https://facebook.com/wolverine2k"
+
+#[[params.social]]
+#icon = "brand-instagram"
+#name = "My Instagram"
+#url = "http://instagram.com/wolverine2k"
+
+[[params.social]]
+icon = "brand-youtube"
+name = "My Youtube"
+url = "https://www.youtube.com/user/wolverine2k1"

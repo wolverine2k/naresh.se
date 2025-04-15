@@ -3,7 +3,7 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "themes/zzo"]
 	path = themes/zzo
-	url = https://github.com/zzossig/hugo-theme-zzo.git
+	url = https://github.com/wolverine2k/hugo-theme-zzo.git
 [submodule "themes/reimu"]
 	path = themes/reimu
 	url = https://github.com/D-Sketon/hugo-theme-reimu.git
