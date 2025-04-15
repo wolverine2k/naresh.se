@@ -1,0 +1,4 @@
+baseURL = 'https://naresh.se/'
+languageCode = 'en-us'
+title = 'Naresh Mehta'
+theme = 'hugo-theme-m10c'

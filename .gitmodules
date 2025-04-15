@@ -1,0 +1,18 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/zzossig/hugo-theme-zzo.git
+[submodule "themes/reimu"]
+	path = themes/reimu
+	url = https://github.com/D-Sketon/hugo-theme-reimu.git
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
+[submodule "themes/dream"]
+	path = themes/dream
+	url = https://github.com/g1eny0ung/hugo-theme-dream.git
+[submodule "themes/rusty-typewriter"]
+	path = themes/rusty-typewriter
+	url = https://github.com/math-queiroz/rusty-typewriter.git
