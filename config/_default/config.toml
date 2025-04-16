@@ -1,4 +1,4 @@
-baseURL = "http://example.org"
+baseURL = "http://naresh.se"
 title = "Naresh Mehta"
 theme = "zzo"
 
@@ -14,7 +14,7 @@ timeout = 10000
 enableEmoji = true
 rssLimit = 100
 
-enableGitInfo = false
+enableGitInfo = true
 googleAnalytics = ""
 
 [markup]

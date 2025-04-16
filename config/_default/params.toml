@@ -59,6 +59,13 @@ tagIcon = "🏷️"
 publicationIcon = "📚"
 typeIcon = "🎯"
 
+# author
+author = "Naresh Mehta"
+authorEmoji = "🤖" # emoji for subtitle, summary meta data
+authorImage = "/images/whoami/avatar.jpg" # image path in the static folder
+authorImageUrl = "https://avatars1.githubusercontent.com/u/1121738?v=3&s=460" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
+authorDesc = "Ideas analyzed logically to make sense & grow upon..." # author description
+
 # whoami
 myname = "Naresh Mehta"
 email = "naresh.mehta@gmail.com"
@@ -199,17 +206,20 @@ commento = true
   paypal = "http://paypal.me/NareshMehta"
   patreon = ""
 
-# possible share name: ["facebook", "X""reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
+# possible share name: ["facebook", "twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
 [[share]]
   name = "facebook"
   username = ""
 [[share]]
-  name = "X"
+  name = "twitter"
+  username = ""
+[[share]]
+  name = "linkedin"
   username = ""
 
-[[footerLinks]]
-  name = ""
-  link = ""
-[[footerLinks]]
-  name = ""
-  link = ""
+#[[footerLinks]]
+#  name = ""
+#  link = ""
+#[[footerLinks]]
+#  name = ""
+#  link = ""
