@@ -1,9 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "themes/zzo"]
-	path = themes/zzo
-	url = https://github.com/wolverine2k/hugo-theme-zzo.git
 [submodule "themes/reimu"]
 	path = themes/reimu
 	url = https://github.com/D-Sketon/hugo-theme-reimu.git
@@ -19,3 +16,6 @@
 [submodule "themes/hugo-theme-m10c"]
 	path = themes/hugo-theme-m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/wolverine2k/hugo-theme-zzo.git
