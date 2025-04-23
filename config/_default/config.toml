@@ -15,7 +15,7 @@ enableEmoji = true
 rssLimit = 100
 
 enableGitInfo = true
-googleAnalytics = ""
+googleAnalytics = "G-32D0X7W2CS"
 
 [markup]
   [markup.goldmark]
