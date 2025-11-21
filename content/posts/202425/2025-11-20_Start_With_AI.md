@@ -38,3 +38,6 @@ Prompt: "photograph of a single horse with 4 legs and a horn on the head in the 
 
 We got a very different result with that prompt. The moment I use the word Unicorn, I would get a cartoon style image. So I changed the prompt to describe the a horse, brought it down to a real background. The creature is still a creep though and I either get 2 horns (like in the picture) or I get the proper horse but with a cartoon style horn on a disproportionate body. In any case, improving the prompt improved the image. Another aspect is that improving prompts is not an easy job. One needs to understand how the model works and behaves and how to control it to get the best results.
 
+So hang on with me as I explore the techniques of using the proper prompts to get the best results from the LLMs. We will go together, experiment and learn from each other.
+
+Happy Prompting!
