@@ -1,5 +1,5 @@
 ---
-title: "Use Claude Code with OpenAI compatible APIs (CCR)"
+title: "Use Claude Code with OpenAI compatible APIs"
 date: 2026-01-22
 categories: 
   - "general"
